@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F4F5F0;
+}
+
+a {
+  text-decoration: none
+}
+
+h1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  width:825px;
+  color: #3C3744;
+  font-size: 120px;
+  margin: auto;
+  font-family: 'Kulim Park', sans-serif;
+  z-index: -5;
+}
+
+.empty {
+  height: 100px;
+}
+
+.page {
+  background-color: #CAE1D9;
+  width: 825px;
+  font-family: 'Kulim Park', sans-serif;
+  margin: auto;
+  padding-right: 25px;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+
+.sidepicture {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.box h2 {
+  order: 1;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-left: 5%;
+  padding: 5% 3% 0% 3%;
+  letter-spacing: 0.85px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.biopic {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px;
+  width: 250px;
+  filter: grayscale(100%);
+}
+
+.pic2 {
+  margin-top: 285px;
+}
+
+.pic3 {
+  margin-top: 180px;
+}
+
+.bookcover {
+  float: left;
+  overflow: hidden;
+  height: 260px;
+  margin-right:20px;
+  margin-top: 20px;
+}
+
+.travelpic {
+  float: left;
+  border-radius: 15px;
+  border-style: solid;
+  width: 350px;
+  /*margin: auto;*/
+  margin: 15px 15px 0px 0px;
+}
+
+.interestsbox {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 500px;
+  letter-spacing: 0.85px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.interests:hover {
+  width: 510px;
+}
+
+.interests {
+  border-color: black;
+  border-style: solid;
+  border-radius: 25px;
+  height: 200px;
+  background-size: cover;
+  background-color: white;
+  width: 500px;
+}
+
+#history {
+  background-image: url(images/soldatenw.jpg);
+}
+
+#caucasus {
+  background-image: url(images/Kaukw.jpg);
+}
+
+.intereststext {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  color: black;
+  height: 100%;
+}
+
+.interests:hover{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.item h2{
+  width: 100%;
+  color: #3C3744;
+}
+
+.item h3 {
+  color: #3C3744;
+  padding-top: 10px
+}
+
+.interestsbox h2{
+  width: 100%;
+  padding-left: 3%;
+  padding-top: 20px
+}
+
+.item p {
+  color: #3C3744;
+  padding-top: 10px;
+}
+
+.home {
+  margin-left: 8%;
+  margin-top: 15px;
+  font-size: 22px;
+}
